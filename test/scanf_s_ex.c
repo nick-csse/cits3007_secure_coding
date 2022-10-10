@@ -41,3 +41,15 @@ int main(void)
     // writes 25 to i, 5.432 to x, the 9 bytes "Thompson\0" to str1, and 3 to n.
 #endif
 }
+
+/* output:
+Converted 7 fields:
+i = 25
+x = 5.432000
+str1 = Thompson
+j = 56
+y = 789.000000
+str2 = 56
+warr[0] = U+df
+warr[1] = U+6c34
+*/
